@@ -126,7 +126,6 @@ import Network.Wai.Test
 import Control.Monad.Trans.Reader (ReaderT, runReaderT, ask)
 import Control.Monad.Trans.State (get, put, execStateT, StateT)
 import "monads-tf" Control.Monad.Trans
-import Control.Monad.IO.Control (MonadControlIO)
 import System.IO
 import Text.XML.HXT.TransversingCSS
 import Database.Persist.GenericSql
