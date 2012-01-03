@@ -1,0 +1,45 @@
+name:               TestWaiPersistent
+version:            0.1
+copyright:          (C) 2011 Nubis <nubis@woobiz.com.ar>
+license:            BSD3
+license-file:       LICENSE
+author:             Nubis <nubis@woobiz.com.ar>
+maintainer:         Nubis <nubis@woobiz.com.ar>
+homepage:           http://mononoproject.com
+category:           Testing, Wai, Persistent, Integration
+synopsis:           Pragmatic integration testing of web applications built using WAI and Persistent. 
+description:        
+                    Pragmatic integration testing of web applications built using WAI and Persistent.
+
+stability:          experimental
+cabal-version:      >= 1.8
+build-type:         Simple
+tested-with:        GHC==7.0.3
+extra-source-files: README.md, LICENSE
+
+library
+  exposed-modules: Test.WaiPersistent
+
+  build-depends: hxt >= 9.1.5
+               , parsec >= 3.1.1
+               , base
+               , containers
+               , filepath
+               , persistent >= 0.6.4
+               , monad-control >= 0.2
+               , transformers >= 0.2
+               , wai-test
+               , wai >= 0.4
+               , ascii
+               , network
+               , http-types >= 0.6
+               , hspec >= 0.9
+               , HUnit >= 1.0
+               , bytestring
+               , text
+               , monads-tf
+
+source-repository head
+  type: git
+  location: git://github.com/nubis/TransversingCSS.git
+
