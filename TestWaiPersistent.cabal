@@ -41,5 +41,5 @@ library
 
 source-repository head
   type: git
-  location: git://github.com/nubis/TransversingCSS.git
+  location: git://github.com/nubis/TestWaiPersistent.git
 
